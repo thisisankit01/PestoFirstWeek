@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Styling</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginForm.css">
+</head>
+<body>
+    <div id="container">
+      <div class="form-wrap">
+      <div id="sign-up">
+      <h1><b>Sign Up</b></h1>
+      <p><b> It's free and only takes a minute</b></p><br>
+    </div>
+
+<form action="http://localhost:5500/form" method="get">
+  <div class="form-group">
+      <label for="Name">First Name</label>
+      <input type="text" id="Name">
+        </div>
+  
+        <div class="form-group">
+          <label for="Name">Last name</label>
+          <input type="text" id="Name">
+        </div>
+  
+        <div class="form-group">
+    <label for="Email">Email</label>
+    <input type="email" name="Email" id="name">
+  </div>
+        
+  <div class="form-group">
+    <label for="Password">Password</label>
+    <input type="Password" name="Password" id="name">
+  </div>
+  
+  <div class="form-group">
+  <label for="password2">Confirm Password</label>
+  <input type="password" name="Password2" id="name">
+  </div>
+
+  
+  <button type="submit" class="btn">Sign Up</button>
+
+
+  <p class="tc">
+    By clicking the Sign up button, you agree to our
+  <a href="#">
+    Terms & Conditions </a> and <a href="#">Privacy Policy</a>
+    </p>
+ </form>
+</div>
+<footer>
+  <p id="container">Already have an account?
+    <a href="#" class="login">Login Here</a>
+  </p>
+</footer>
+</div>
+</div>
+</body>
+</html>
