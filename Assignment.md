@@ -87,7 +87,14 @@
 
 
 # When a user enters an URL in the browser, how does the browser fetch the desired result ?
-### 1. You enter the URL in the browser.
-> When you type any URL you basically want to reach the server where the website is hosted.
+ >You type a URL in your browser and press Enter.
+ 
+>Browser looks up IP address for the domain.
 
-### 2. The browser looks for the IP address of the domain name in the DNS(Domain Name Server).
+>Browser initiates TCP connection with the server.
+
+>Browser sends the HTTP request to the server.
+
+>Server processes request and sends back a response.
+
+>Browser renders the content.
