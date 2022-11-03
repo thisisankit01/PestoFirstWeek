@@ -1,8 +1,6 @@
 //addEventHandler() method - only this provides robust(can be consumed by wide variety of user agents).
 const elementDiv = document.querySelector('div');
-elementDiv.addEventListener('click',function(){
-console.log('fire/trigger addEventListener')
-},false);
+elementDiv.addEventListener('click',sayHi,false);
 
 //removeEventHandler( ) method
 var sayHi = function(){console.log('Hi')};
