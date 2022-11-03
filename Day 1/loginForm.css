@@ -7,7 +7,7 @@
 body{
   background-color: #4267B2;
   color: #fff;
-  line-height: 1.8;
+  line-height: 2;
   font-family:'Roboto', sans-serif ;
 }
 
@@ -77,5 +77,5 @@ border-radius: 5px;
 
 footer{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }

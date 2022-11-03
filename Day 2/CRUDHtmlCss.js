@@ -30,8 +30,8 @@ document.getElementById('A').innerHTML = '<strong>Hi</strong>';
 //Add node objects to the DOM.
 // 1. appendChild()
 
-const div = document.getElementById("C");
-div.appendChild(document.createElement('p'));
+const div = document.getElementById("C"); //tracing an element with id "C"
+div.appendChild(document.createElement('p')); //insering and element with id 'p' inside 'c'.
 
 //2. insertBefore()- requires 2 parameters
 
@@ -55,11 +55,11 @@ console.log(document.body.innerHTML);
 // 1. removeChild()
 
  //remove element node
-var divA= document.getElementById("A");
-divA.parentNode.removeChild(divA);
+var divA= document.getElementById("A"); 
+divA.parentNode.removeChild(divA); //removing element with id "A".
 
 //remove text node
-var divB= document.getElementById("B").firstChild;
+var divB= document.getElementById("B").firstChild; //firstChild is "Dude" its parent id is "B"
 divB.parentNode.removeChild(divB);
 
 /*
@@ -75,7 +75,7 @@ element.replaceChild(newNode, element.childNodes[0]);
 
 
 //CSS
-const divStyle = document.querySelector("div").style;
+const divStyle = document.querySelector("div").style; //querySelector returns first element matches with css style selector.
 
 
 div.style.backgroundColor="Red";

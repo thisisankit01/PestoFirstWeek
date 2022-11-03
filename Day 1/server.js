@@ -13,12 +13,10 @@ app.use(
 app.use(express.static('public'));//serve our public folder as static folder 
 
 //api routes
-app.get("/form",(req,res) => {
-console.log(req.name);
-console.log(req.surname);
+app.get("/form",(req,res) => { 
 console.log(req.body);
 console.log(req.url);
-console.log(req.query);
+console.log(req.query); // responsible for getting data in json query format in console.
 res.send("recieved");
 });
 
